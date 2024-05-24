@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6650f4cf071a3b1e4419b4eb"
+  },
+  "username": "Jatin Rathore",
+  "email": "JR123@AR456.com",
+  "password": "$2b$10$jt9QOt.6BzvGMj7MiYKHEe13fRriK/TwU3U9NscCzX3glc4RGzGcG",
+  "posts": [],
+  "likes": [],
+  "comments": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6650f86e7748a78171fe0b50"
+  },
+  "username": "Prashant beck",
+  "email": "Beck@911.com",
+  "password": "$2b$10$ad1EfR.OYdt8Am.I3wEGiuJh5o4qqLDNWdICoZiKq5YdsyGMtieha",
+  "posts": [],
+  "likes": [],
+  "comments": [],
+  "__v": 0
+}]
