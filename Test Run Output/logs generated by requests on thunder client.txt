@@ -43,3 +43,21 @@ Request Body:
   "username":"Jatin Rathore",
   "password":"password124"
 }
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:3030/auth/register
+Method: POST
+Request Headers:
+{
+  "content-length": "87",
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Content-Type": "application/json"
+}
+Request Body:
+{
+  "username":"Prashant beck",
+  "email":"Beck@911.com",
+  "password":"pass1w1o1r1d"
+}
