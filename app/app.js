@@ -21,4 +21,8 @@ app.get("/", (request, reply) => {
   };
 });
 
+app.register(require("./auth/route"), {
+  prefix: "/auth",
+});
+
 module.exports = app;
