@@ -1,0 +1,45 @@
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:3030
+Method: GET
+Request Headers:
+{
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:3030/auth/register
+Method: POST
+Request Headers:
+{
+  "content-length": "89",
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Content-Type": "application/json"
+}
+Request Body:
+{
+  "username":"Jatin Rathore",
+  "email":"JR123@AR456.com",
+  "password":"password124"
+}
+
+---------------- Running Request: ----------------
+Request Url: http://localhost:3030/auth/login
+Method: POST
+Request Headers:
+{
+  "content-length": "60",
+  "accept-encoding": "gzip, deflate, br",
+  "Accept": "*/*",
+  "User-Agent": "Thunder Client (https://www.thunderclient.com)",
+  "Content-Type": "application/json"
+}
+Request Body:
+{
+  "username":"Jatin Rathore",
+  "password":"password124"
+}

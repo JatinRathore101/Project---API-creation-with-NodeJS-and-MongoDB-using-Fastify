@@ -7,12 +7,12 @@ module.exports = {
     try {
       //   if (userService.isUsernameExists() && userService.isEmailExists()) {
       if (
-        (await userService.findByEmail(req.body.email)) &&
+        (await userService.findByEmail(req.body.email)) ||
         (await userService.findByUsername(req.body.username))
       ) {
         res.code(400);
         return {
-          message: "username and email exist",
+          message: "username or email exist",
         };
       }
 
@@ -43,7 +43,7 @@ module.exports = {
       }
 
       if (
-        !(await userService.comparePassword(user.password, req.body.password))
+        !(await userService.comparePassword(req.body.password, user.password))
       ) {
         res.code(400);
         return {
